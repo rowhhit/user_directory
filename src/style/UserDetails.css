@@ -1,0 +1,65 @@
+/* Container styling */
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Back button */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Heading styles */
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #007bff;
+  }
+  
+  /* Paragraph styling */
+  p {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+  
+  p strong {
+    color: #555;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+      margin: 10px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    button {
+      font-size: 0.9rem;
+    }
+  }
+  
